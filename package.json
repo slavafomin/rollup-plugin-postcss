@@ -1,6 +1,6 @@
 {
-  "name": "rollup-plugin-postcss",
-  "version": "2.0.3",
+  "name": "@moebius/rollup-plugin-postcss",
+  "version": "2.1.0-beta.1",
   "description": "Seamless integration between Rollup and PostCSS",
   "main": "dist/index.js",
   "files": [
@@ -13,23 +13,24 @@
     "lint": "xo",
     "prepublishOnly": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/egoist/rollup-plugin-postcss.git"
+  "publishConfig": {
+    "access": "public",
+    "tag": "beta"
   },
+  "repository": "github:slavafomin/rollup-plugin-postcss",
+  "homepage": "https://github.com/slavafomin/rollup-plugin-postcss",
   "keywords": [
     "postcss",
     "rollup"
   ],
   "author": "EGOIST <0x142857@gmail.com>",
+  "contributors": [
+    "Slava Fomin II <slava@fomin.io> (https://slava.fomin.io)"
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/egoist/rollup-plugin-postcss/issues"
-  },
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://github.com/egoist/rollup-plugin-postcss#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "autoprefixer": "^7.2.4",
